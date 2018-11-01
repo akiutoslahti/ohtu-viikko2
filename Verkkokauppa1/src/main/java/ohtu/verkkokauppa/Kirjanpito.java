@@ -3,7 +3,7 @@ package ohtu.verkkokauppa;
 
 import java.util.ArrayList;
 
-public class Kirjanpito implements KirjanpitoRP {
+public class Kirjanpito implements IKirjanpito {
     
     private ArrayList<String> tapahtumat;
 

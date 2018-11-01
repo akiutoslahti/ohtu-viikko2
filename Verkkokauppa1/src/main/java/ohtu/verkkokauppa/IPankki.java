@@ -9,8 +9,8 @@ package ohtu.verkkokauppa;
  *
  * @author aki
  */
-public interface ViitegeneraattoriRP {
+public interface IPankki {
 
-    int uusi();
+    boolean tilisiirto(String nimi, int viitenumero, String tililta, String tilille, int summa);
     
 }

@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author aki
  */
-public interface KirjanpitoRP {
+public interface IKirjanpito {
 
     ArrayList<String> getTapahtumat();
 

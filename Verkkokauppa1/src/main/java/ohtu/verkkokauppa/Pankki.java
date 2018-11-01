@@ -1,10 +1,10 @@
 package ohtu.verkkokauppa;
 
-public class Pankki implements PankkiRP {
+public class Pankki implements IPankki {
 
-    private KirjanpitoRP kirjanpito;
+    private IKirjanpito kirjanpito;
 
-    public Pankki(KirjanpitoRP kirjanpito) {
+    public Pankki(IKirjanpito kirjanpito) {
         this.kirjanpito = kirjanpito;
     }
 

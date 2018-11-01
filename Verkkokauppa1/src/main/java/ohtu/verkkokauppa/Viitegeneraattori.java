@@ -1,6 +1,6 @@
 package ohtu.verkkokauppa;
 
-public class Viitegeneraattori implements ViitegeneraattoriRP {
+public class Viitegeneraattori implements IViitegeneraattori {
     
     private int seuraava;
     

@@ -9,14 +9,8 @@ package ohtu.verkkokauppa;
  *
  * @author aki
  */
-public interface VarastoRP {
+public interface IViitegeneraattori {
 
-    Tuote haeTuote(int id);
-
-    void otaVarastosta(Tuote t);
-
-    void palautaVarastoon(Tuote t);
-
-    int saldo(int id);
+    int uusi();
     
 }
